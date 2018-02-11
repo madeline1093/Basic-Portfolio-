@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+.entire {
+    background-image: url("background.jpg");
+}
   /*This is the Navigation at the top of the page*/
 .top-bar {
     position: relative;
