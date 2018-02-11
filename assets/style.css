@@ -48,15 +48,29 @@
     padding: 10px;
     justify-content: space-between;
     width: 90%;
-    border: 1px black solid;
 }
-
+.large-heading {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+.paragraph {
+    font-family: 'Economica', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.madeline-pic {
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
 .about-me {
     width: 70%;
     border: 1px black solid;
+    padding: 10px;
 }
 
 .connect-with-me {
+    padding: 10px;
     width: 25%;
     border: 1px black solid;
+    height: 60%;
 }
