@@ -1,17 +1,62 @@
-.nav {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*This is the Navigation at the top of the page*/
+.top-bar {
+    position: relative;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    background-color: lightblue;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: darkslategrey solid 1px;
+    width: 100%;
+    Height: 100px;
 }
 
-.d-f {
+.name {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    background: gray;
+    margin-left: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 90px;
+    border-radius: 15px;
+}
+
+.navigation {
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 50px;
     display: flex;
+    align-content: space-between;
 }
 
-.section {
-    flex-direction: column;
+.nav-item {
+    padding: 20px;
 }
 
-.connect {
-    flex-direction: column;
+/*This is the About Me section*/
+
+.main-content {
+    box-sizing: border-box;
+    display: flex;
+    margin: 50px;
+    padding: 10px;
+    justify-content: space-between;
+    width: 90%;
+    border: 1px black solid;
+}
+
+.about-me {
+    width: 70%;
+    border: 1px black solid;
+}
+
+.connect-with-me {
+    width: 25%;
+    border: 1px black solid;
 }
