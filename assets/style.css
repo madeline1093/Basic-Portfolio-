@@ -52,6 +52,7 @@
 .large-heading {
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
+    justify-content: flex-start;
 }
 .paragraph {
     font-family: 'Economica', sans-serif;
@@ -69,8 +70,17 @@
 }
 
 .connect-with-me {
+    text-align: center;
     padding: 10px;
-    width: 25%;
+    width: 20%;
     border: 1px black solid;
     height: 60%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
 }
