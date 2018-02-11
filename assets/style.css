@@ -5,7 +5,7 @@
   }
 
 .entire {
-    background-image: url("background.jpg");
+    background-image: url("./../GypsyGardenbyPixels&IceCream.png");
 }
   /*This is the Navigation at the top of the page*/
 .top-bar {
@@ -14,7 +14,7 @@
     background-color: lightblue;
     justify-content: space-between;
     align-items: center;
-    border-bottom: darkslategrey solid 1px;
+    border-bottom: 3px solid turquoise;
     width: 100%;
     Height: 100px;
 }
@@ -22,7 +22,7 @@
 .name {
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
-    background: gray;
+    background: #00b386;
     margin-left: 50px;
     padding-left: 15px;
     padding-right: 15px;
@@ -68,12 +68,14 @@
     margin-bottom: 5px;
 }
 .about-me {
+    background: white;
     width: 70%;
     border: 1px black solid;
     padding: 10px;
 }
 
 .connect-with-me {
+    background: white;
     text-align: center;
     padding: 10px;
     width: 20%;
@@ -87,4 +89,19 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: stretch;
+}
+
+/* This is the Footer */
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px;
+    background: lightblue;
+    border-top: 3px solid turquoise;
+    font-family: 'Amatic SC', cursive;
+    font-size: 15px;
 }
