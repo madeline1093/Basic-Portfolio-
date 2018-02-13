@@ -6,10 +6,12 @@
 
 .entire {
     background-image: url("./../GypsyGardenbyPixels&IceCream.png");
+    margin-top: 100px;
 }
   /*This is the Navigation at the top of the page*/
 .top-bar {
-    position: relative;
+    position: fixed;
+    top: 0;
     display: flex;
     background-color: lightblue;
     justify-content: space-between;
@@ -46,7 +48,6 @@
 /*This is the About Me section*/
 
 .main-content {
-    box-sizing: border-box;
     display: flex;
     margin: 50px;
     padding: 10px;
