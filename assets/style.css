@@ -101,6 +101,31 @@
     align-items: stretch;
     padding-top: 10px;
 }
+/* Portfolio Specific */
+
+.portfolio-all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-around;
+}
+.portfolio-all h2 span {
+    position: absolute;
+    text-align: center;
+    top: 120px;
+    width: 100%;
+    left: 0;
+    padding: 10px;
+    background: gray;
+}
+.port-pic {
+    position: relative;
+    width 100%;
+    margin: 10px; 
+}
+
+
 
 /* This is the Footer */
 
