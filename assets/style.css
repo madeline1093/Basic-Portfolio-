@@ -7,6 +7,8 @@
 .entire {
     background-image: url("./../GypsyGardenbyPixels&IceCream.png");
     margin-top: 100px;
+    width: 100%;
+    height: 100%;
 }
   /*This is the Navigation at the top of the page*/
 .top-bar {
@@ -123,7 +125,6 @@
 }
 .port-pic {
     position: relative;
-    width 100%;
     margin: 10px; 
 }
 
