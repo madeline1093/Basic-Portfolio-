@@ -74,6 +74,7 @@
     font-family: 'Economica', sans-serif;
     font-size: 18px;
     line-height: 1.5;
+    min-width: 250px;
 }
 .madeline-pic {
     margin-right: 15px;
@@ -128,7 +129,45 @@
     margin: 10px; 
 }
 
+/* This is Contact page specific */
 
+.f-input:placeholder{
+    color: black;
+    opacity: 0.8;
+}
+
+.f-input {
+    border: 2p solid #2cbaba;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    color:black;
+    font-size: 18px;
+    border-radius: 4px;
+    line-height: 22px;
+    text-align: left;
+    font-family: inherit;
+}
+
+textarea {
+    height: 250px;
+    line-height: 150%;
+    resize:none;
+
+}
+
+form button {
+    width: 60px;
+    float: right;
+    font-family: inherit;
+    background: #2cbaba;
+    cursor: pointer;
+
+    
+}
 
 /* This is the Footer */
 
